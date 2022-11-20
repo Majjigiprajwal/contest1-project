@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    color:white;
+    padding: 60px 60px;
+
+}
+.header{
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.drop-down{
+    display: flex;
+    width:140px;
+    height: 40px;
+    border: 1px solid white;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    }
+.text{
+    font-size: 20px;
+}    
+.image{
+  margin-top:10px;
+}
+.profession-list{
+    justify-content: center;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+
+
+}
+
+ .dev{
+    position: relative;
+    top: 10px;
+    margin-top:0px;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background-color:white;
+    justify-content: center;
+    border-radius: 10px;
+    padding:10px;
+
+}
+ .admin{
+    position: relative;
+    top: 20px;
+    margin-top:0px;
+    display: flex;
+    width: 140px;
+    height: 40px;
+    background-color:white;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    padding:10px;
+    z-index: 1000;
+
+}
+ul{
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    color:black;
+}
+.professional{
+    justify-content: center;
+    text-align: center;
+    opacity: 1;
+}
+.output{
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    position:relative;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color:white;
+    z-index: -1;
+    font-size: 20px;
+    word-spacing: 30px;
+    visibility: hidden;
+    opacity: 0;
+
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 30px;
+
+}
+.displayActive{
+    position:relative;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    background-color:black;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color:white;
+    z-index: -1;
+    font-size: 20px;
+    word-spacing: 30px;
+    opacity: 1;
+
+}
